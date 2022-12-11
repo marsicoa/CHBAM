@@ -1,6 +1,6 @@
 # Entrega Final
 
-### Entrega final del curso de Programacion de Backend de Coder House
+### Entrega final del curso de Programacion Backend de Coder House
 #### Esta entrega contempla lo visto en el resto de las entregas del curso
 #### https://chbam.herokuapp.com/
     
