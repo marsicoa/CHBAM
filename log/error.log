@@ -1,0 +1,889 @@
+[2022-09-24T19:42:27.307] [ERROR] default - Ejemplo error
+[2022-09-24T20:30:57.902] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/alfonso/Desktop/Backend/Entrega16/node_modules/express/lib/application.js:618:24)
+    at file:///home/alfonso/Desktop/Backend/Entrega16/src/server.js:76:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2022-09-24T20:31:04.761] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/alfonso/Desktop/Backend/Entrega16/node_modules/express/lib/application.js:618:24)
+    at file:///home/alfonso/Desktop/Backend/Entrega16/src/server.js:76:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2022-10-10T19:31:45.180] [ERROR] default - Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)
+    at TLSSocket.emit (node:events:390:28)
+    at TLSSocket._finishInit (node:_tls_wrap:944:8)
+    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12) {
+  code: 'ESOCKET',
+  command: 'CONN'
+}
+[2022-10-10T19:35:29.546] [ERROR] default - Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)
+    at TLSSocket.emit (node:events:390:28)
+    at TLSSocket._finishInit (node:_tls_wrap:944:8)
+    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12) {
+  code: 'ESOCKET',
+  command: 'CONN'
+}
+[2022-10-30T16:10:17.240] [ERROR] default - CastError: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"1"',
+  kind: 'ObjectId',
+  value: '1',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T16:13:26.626] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T16:13:26.674] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:09:15.432] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:09:15.486] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:09:53.281] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:09:53.333] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:16:06.880] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:16:06.935] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:16:54.800] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:16:54.866] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:17:18.688] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:17:18.739] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:18:22.751] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:18:22.803] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:18:40.940] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:18:41.002] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:20:17.799] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:20:17.848] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:20:57.525] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:20:57.572] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:21:24.915] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:21:24.976] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:21:42.586] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:21:42.629] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:21:53.251] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:21:53.303] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:27:19.415] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:27:19.481] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:27:35.263] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:27:35.329] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:27:47.316] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:27:47.366] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:30:24.131] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:30:24.177] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:33:49.363] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:33:49.417] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
+[2022-10-30T17:34:08.626] [ERROR] default - CastError: Cast to ObjectId failed for value "non-existent-id" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15) {
+  messageFormat: undefined,
+  stringValue: '"non-existent-id"',
+  kind: 'ObjectId',
+  value: 'non-existent-id',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2022-10-30T17:34:08.656] [ERROR] default - CastError: Cast to ObjectId failed for value "{ _id: 'non-existent-id' }" (type Object) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4715:21)
+    at model.Query.Query.then (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:4814:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ _id: 'non-existent-id' }"`,
+  kind: 'ObjectId',
+  value: { _id: 'non-existent-id' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast\objectid.js:19:14)
+      at ObjectId.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1189:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1623:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1613:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\cast.js:288:34)
+      at model.Query.Query.cast (C:\Users\User\Documents\Coding\_JS\CoderHouse - Backend\Entregados\API_testing\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'Object'
+}
